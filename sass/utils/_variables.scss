@@ -10,16 +10,17 @@
 }
 
 @mixin font($fw, $fs, $lh, $ls) {
-  font-weight: $fw; //000
-  font-size: $fs; //00px
-  line-height: $lh; //0.00
-  letter-spacing: $ls; //0.00em
-  // @includ, null
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
 }
+
 @mixin marginX-auto($r: auto, $l: auto) {
   margin-left: $l;
   margin-right: $r;
 }
+
 @mixin flexCentr($fl: flex, $ai: center, $jc: center) {
   display: $fl;
   align-items: $ai;
