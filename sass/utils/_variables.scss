@@ -24,7 +24,7 @@
 @mixin flexCentr($fl: flex, $ai: center, $jc: center) {
   display: $fl;
   align-items: $ai;
-  justify-content: $ai;
+  justify-content: $jc;
 }
 
 body {
